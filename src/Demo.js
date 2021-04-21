@@ -7,21 +7,18 @@ import NotInterestedIcon from '@material-ui/icons/NotInterested';
 import SwapHorizIcon from "@material-ui/icons/SwapHoriz";
 import DeleteIcon from "@material-ui/icons/Delete";
 import users from "./stub.json";
+import AddUserRow from "./AddUserRow";
 
-// TODO add rows - hooks - state
 
 const columns = [
   { name: "firstName", label: "First name" },
   { name: "lastName", label: "Last name" },
+  { name: "jobTitle", label: "Job title" },
   { name: "age", label: "Age" },
   {
     name: "availability",
     label: "Availability"
   },
-  {
-    name: "credits.email",
-    label: "Email"
-  }
 ];
 
 
@@ -69,8 +66,10 @@ const customToolbarSelectActions = ({
 
 const Demo = () => (
   <div className={"App"}>
+    <AddUserRow />
+    
     <ReactMUIDatatable
-      title={"List"}
+      title={"List"}      
       data={users}
       columns={columns}
       customCell={customCell}
