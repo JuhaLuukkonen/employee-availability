@@ -24,6 +24,7 @@ employee-availability-main
   public/
     index.html
   src/
+    AddButton.js
     AddUserRow.js
     App.css
     App.js
