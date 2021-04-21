@@ -1,14 +1,50 @@
-# Employee availability - Juha Luukkonen
+# HTML5 test - Juha Luukkonen
 
-TODO: 
+React form list of participants is test project for Digia Oyj position: Koodaava Team Lead
 
-1.) transfer data from addUserRow to display list
-2.) UI style
+Test requirements:
 
-# Download repository and install
+https://github.com/digiaonline/docs/tree/master/recruitment/html5
 
-- npm install and npm start
+About position:
 
-or
+https://digia.com/rekrytointi/avoimet-tyopaikat/koodaava-team-lead-dx/
 
-- yarn install and yarn start(not tested)
+Used icon library:
+
+https://fontawesome.com/how-to-use/on-the-web/using-with/react
+
+Random user API:
+
+https://randomuser.me/
+
+
+## Install and running app
+```
+npm install 
+npm start
+```
+The app will be directed to [http://localhost:3000/](http://localhost:3000/)
+
+## Folder structure
+```
+html5-test-main/
+  public/
+    index.html
+    logo.png
+  src/
+    Components/
+      ParticipantEdit.css
+      ParticipantEdit.js
+      ParticipantList.css
+      ParticipantList.js
+    App.css
+    App.js
+    App.test.js
+    index.css
+    index.js
+    registerService.js
+  package.json
+  styleguide.png
+  README.md
+```
