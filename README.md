@@ -8,11 +8,13 @@ TODO:
 # Download repository and install
 ```
 - npm install
+
 - npm start
 ```
 or(not tested)
 ```
 - yarn install
+
 - yarn start
 ```
 # Folder structure
