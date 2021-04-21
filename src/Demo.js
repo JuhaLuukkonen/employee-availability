@@ -8,6 +8,7 @@ import SwapHorizIcon from "@material-ui/icons/SwapHoriz";
 import DeleteIcon from "@material-ui/icons/Delete";
 import users from "./stub.json";
 import AddUserRow from "./AddUserRow";
+import AddButton from "./AddButton";
 
 
 const columns = [
@@ -67,7 +68,7 @@ const customToolbarSelectActions = ({
 const Demo = () => (
   <div className={"App"}>
     <AddUserRow />
-    
+    <AddButton />  
     <ReactMUIDatatable
       title={"List"}      
       data={users}
