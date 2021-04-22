@@ -60,10 +60,6 @@ const customToolbarSelectActions = ({
   </React.Fragment>
 );
 
-const addedRows = [
-  {firstname: '', lastName: '', jobTitle: '', age:'', availability: ''}
-]
-
 const rows = [
   {firstname: '', lastName: '', jobTitle: '', age:'', availability: ''}
 ]
@@ -87,7 +83,7 @@ const Demo = () => (
     ______
     
     <AddUserRow
-    addedRows={addedRows}
+    addedRows={"form-dialog-title"}
     style={btnStyle}
     />         
   </div>

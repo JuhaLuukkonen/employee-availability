@@ -34,10 +34,10 @@ export default function FormDialog() {
           
         </DialogContent>
         <DialogActions>        
-          <Button onClick={handleClose} color="primary">
+          <Button onClick={handleClose} color="secondary">
             Cancel
           </Button>
-          <Button onClick={handleClose} color="primary">
+          <Button onClick={handleClose} color="secondary">
             Add availability
           </Button>
         </DialogActions>

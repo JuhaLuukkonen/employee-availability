@@ -471,6 +471,7 @@
       "id": 37,
       "firstName": "Alessandro",
       "lastName": "Kroger",
+      "jobTitle": "Doctor",
       "age": 78,
       "availability": "Available",
       "credits": {
@@ -483,6 +484,7 @@
       "id": 38,
       "firstName": "Kate",
       "lastName": "Adderley",
+      "jobTitle": "Doctor",
       "age": 84,
       "availability": "Not available",
       "credits": {
@@ -495,6 +497,7 @@
       "id": 39,
       "firstName": "Obidiah",
       "lastName": "Fitzsymon",
+      "jobTitle": "Doctor",
       "age": 85,
       "availability": "Available",
       "credits": {
@@ -507,6 +510,7 @@
       "id": 40,
       "firstName": "Axel",
       "lastName": "Dmitriev",
+      "jobTitle": "Doctor",
       "age": 75,
       "availability": "Available",
       "credits": {
@@ -519,6 +523,7 @@
       "id": 41,
       "firstName": "Violetta",
       "lastName": "Turley",
+      "jobTitle": "Nurse",
       "age": 66,
       "availability": "Not available",
       "credits": {
@@ -531,6 +536,7 @@
       "id": 42,
       "firstName": "Craig",
       "lastName": "Faughnan",
+      "jobTitle": "Nurse",
       "age": 26,
       "availability": "Available",
       "credits": {
@@ -543,6 +549,7 @@
       "id": 43,
       "firstName": "Lionel",
       "lastName": "Acaster",
+      "jobTitle": "Nurse",
       "age": 43,
       "availability": "Available",
       "credits": {
@@ -555,6 +562,7 @@
       "id": 44,
       "firstName": "David",
       "lastName": "Hovie",
+      "jobTitle": "Nurse",
       "age": 49,
       "availability": "Available",
       "credits": {
@@ -567,6 +575,7 @@
       "id": 45,
       "firstName": "Hedda",
       "lastName": "Playfoot",
+      "jobTitle": "cat",
       "age": 72,
       "availability": "Not available",
       "credits": {
@@ -579,6 +588,7 @@
       "id": 46,
       "firstName": "Alain",
       "lastName": "Gildroy",
+      "jobTitle": "cat",
       "age": 89,
       "availability": "Available",
       "credits": {
@@ -591,6 +601,7 @@
       "id": 47,
       "firstName": "Pietro",
       "lastName": "Veysey",
+      "jobTitle": "cat",
       "age": 83,
       "availability": "Available",
       "credits": {
@@ -603,6 +614,7 @@
       "id": 48,
       "firstName": "Francisco",
       "lastName": "McGuiney",
+      "jobTitle": "cat",
       "age": 37,
       "availability": "Available",
       "credits": {
@@ -615,6 +627,7 @@
       "id": 49,
       "firstName": "Theresa",
       "lastName": "Halsworth",
+      "jobTitle": "squirrel",
       "age": 31,
       "availability": "Not available",
       "credits": {
@@ -627,6 +640,7 @@
       "id": 50,
       "firstName": "Townsend",
       "lastName": "Yablsley",
+      "jobTitle": "squirrel",
       "age": 21,
       "availability": "Available",
       "credits": {
@@ -639,6 +653,7 @@
       "id": 51,
       "firstName": "Felicio",
       "lastName": "Johansson",
+      "jobTitle": "squirrel",
       "age": 67,
       "availability": "Available",
       "credits": {
@@ -651,6 +666,7 @@
       "id": 52,
       "firstName": "Reilly",
       "lastName": "Muslim",
+      "jobTitle": "squirrel",
       "age": 43,
       "availability": "Available",
       "credits": {
@@ -663,6 +679,7 @@
       "id": 53,
       "firstName": "Nevile",
       "lastName": "Rable",
+      "jobTitle": "squirrel",
       "age": 94,
       "availability": "Available",
       "credits": {
@@ -675,6 +692,7 @@
       "id": 54,
       "firstName": "Wash",
       "lastName": "Waldrum",
+      "jobTitle": "squirrel",
       "age": 35,
       "availability": "Available",
       "credits": {
@@ -687,6 +705,7 @@
       "id": 55,
       "firstName": "Karmen",
       "lastName": "Alway",
+      "jobTitle": "Blacksmith",
       "age": 70,
       "availability": "Not available",
       "credits": {
@@ -699,6 +718,7 @@
       "id": 56,
       "firstName": "Dukey",
       "lastName": "Quigg",
+      "jobTitle": "Blacksmith",
       "age": 56,
       "availability": "Available",
       "credits": {
@@ -711,6 +731,7 @@
       "id": 57,
       "firstName": "Antoine",
       "lastName": "Baptiste",
+      "jobTitle": "Blacksmith",
       "age": 40,
       "availability": "Available",
       "credits": {
@@ -723,6 +744,7 @@
       "id": 58,
       "firstName": "Killian",
       "lastName": "Oppy",
+      "jobTitle": "Blacksmith",
       "age": 78,
       "availability": "Available",
       "credits": {
@@ -735,6 +757,7 @@
       "id": 59,
       "firstName": "Ingunna",
       "lastName": "Baptie",
+      "jobTitle": "Blacksmith",
       "age": 61,
       "availability": "Not available",
       "credits": {
@@ -747,6 +770,7 @@
       "id": 60,
       "firstName": "Laurent",
       "lastName": "Hurdman",
+      "jobTitle": "Blacksmith",
       "age": 67,
       "availability": "Available",
       "credits": {
@@ -759,6 +783,7 @@
       "id": 61,
       "firstName": "Melany",
       "lastName": "Sadlier",
+      "jobTitle": "Blacksmith",
       "age": 66,
       "availability": "Not available",
       "credits": {
@@ -771,6 +796,7 @@
       "id": 62,
       "firstName": "Saundra",
       "lastName": "Kassel",
+      "jobTitle": "Blacksmith",
       "age": 35,
       "availability": "Not available",
       "credits": {
@@ -783,6 +809,7 @@
       "id": 63,
       "firstName": "Joane",
       "lastName": "Rosenberg",
+      "jobTitle": "Team manager",
       "age": 74,
       "availability": "Not available",
       "credits": {
@@ -795,6 +822,7 @@
       "id": 64,
       "firstName": "Lion",
       "lastName": "Cudmore",
+      "jobTitle": "Team manager",
       "age": 42,
       "availability": "Available",
       "credits": {
@@ -807,6 +835,7 @@
       "id": 65,
       "firstName": "Trstram",
       "lastName": "Ianizzi",
+      "jobTitle": "Team manager",
       "age": 59,
       "availability": "Available",
       "credits": {
@@ -819,6 +848,7 @@
       "id": 66,
       "firstName": "Chelsey",
       "lastName": "Rosenstiel",
+      "jobTitle": "Team manager",
       "age": 95,
       "availability": "Not available",
       "credits": {
@@ -831,6 +861,7 @@
       "id": 67,
       "firstName": "Claudianus",
       "lastName": "Dedden",
+      "jobTitle": "Team manager",
       "age": 87,
       "availability": "Available",
       "credits": {
@@ -843,6 +874,7 @@
       "id": 68,
       "firstName": "Reynard",
       "lastName": "Easterby",
+      "jobTitle": "Librarien",
       "age": 48,
       "availability": "Available",
       "credits": {
@@ -855,6 +887,7 @@
       "id": 69,
       "firstName": "Carree",
       "lastName": "Pursey",
+      "jobTitle": "Team manager",
       "age": 63,
       "availability": "Not available",
       "credits": {
@@ -869,6 +902,7 @@
       "lastName": "O'Dougherty",
       "age": 49,
       "availability": "Available",
+      "jobTitle": "Team manager",
       "credits": {
         "email": "aodougherty1x@nyu.edu",
         "phone": "481-160-7900",
@@ -879,6 +913,7 @@
       "id": 71,
       "firstName": "Scot",
       "lastName": "Droogan",
+      "jobTitle": "Team manager",
       "age": 68,
       "availability": "Available",
       "credits": {
@@ -891,6 +926,7 @@
       "id": 72,
       "firstName": "Cassondra",
       "lastName": "Sayre",
+      "jobTitle": "Team manager",
       "age": 43,
       "availability": "Not available",
       "credits": {
@@ -903,6 +939,7 @@
       "id": 73,
       "firstName": "Marcus",
       "lastName": "Guillerman",
+      "jobTitle": "Team manager",
       "age": 54,
       "availability": "Available",
       "credits": {
@@ -915,6 +952,7 @@
       "id": 74,
       "firstName": "Dennison",
       "lastName": "Thaller",
+      "jobTitle": "Team manager",
       "age": 45,
       "availability": "Available",
       "credits": {
@@ -927,6 +965,7 @@
       "id": 75,
       "firstName": "Silvano",
       "lastName": "Bernier",
+      "jobTitle": "Team manager",
       "age": 82,
       "availability": "Available",
       "credits": {
@@ -939,6 +978,7 @@
       "id": 76,
       "firstName": "Isadore",
       "lastName": "MacGarvey",
+      "jobTitle": "Team manager",
       "age": 21,
       "availability": "Available",
       "credits": {
@@ -951,6 +991,7 @@
       "id": 77,
       "firstName": "Marcellus",
       "lastName": "Senecaut",
+      "jobTitle": "Team manager",
       "age": 80,
       "availability": "Available",
       "credits": {
@@ -963,6 +1004,7 @@
       "id": 78,
       "firstName": "Ilyssa",
       "lastName": "Gerrey",
+      "jobTitle": "Team manager",
       "age": 65,
       "availability": "Not available",
       "credits": {
@@ -975,6 +1017,7 @@
       "id": 79,
       "firstName": "Skippie",
       "lastName": "Munns",
+      "jobTitle": "Team manager",
       "age": 33,
       "availability": "Available",
       "credits": {
@@ -987,6 +1030,7 @@
       "id": 80,
       "firstName": "Tine",
       "lastName": "Trivett",
+      "jobTitle": "Team manager",
       "age": 66,
       "availability": "Not available",
       "credits": {
@@ -999,6 +1043,7 @@
       "id": 81,
       "firstName": "Fedora",
       "lastName": "Gudde",
+      "jobTitle": "Team manager",
       "age": 21,
       "availability": "Not available",
       "credits": {
@@ -1011,6 +1056,7 @@
       "id": 82,
       "firstName": "Emily",
       "lastName": "Barrabeale",
+      "jobTitle": "Team assistant",
       "age": 75,
       "availability": "Not available",
       "credits": {
@@ -1023,6 +1069,7 @@
       "id": 83,
       "firstName": "Orson",
       "lastName": "Hollier",
+      "jobTitle": "Team assistant",
       "age": 82,
       "availability": "Available",
       "credits": {
@@ -1035,6 +1082,7 @@
       "id": 84,
       "firstName": "Aymer",
       "lastName": "Tasseler",
+      "jobTitle": "Team assistant",
       "age": 95,
       "availability": "Available",
       "credits": {
@@ -1047,6 +1095,7 @@
       "id": 85,
       "firstName": "Merrel",
       "lastName": "Stoker",
+      "jobTitle": "Team assistant",
       "age": 77,
       "availability": "Available",
       "credits": {
@@ -1059,6 +1108,7 @@
       "id": 86,
       "firstName": "Charlean",
       "lastName": "Arp",
+      "jobTitle": "Team assistant",
       "age": 64,
       "availability": "Not available",
       "credits": {
@@ -1071,6 +1121,7 @@
       "id": 87,
       "firstName": "Yovonnda",
       "lastName": "Enric",
+      "jobTitle": "Team assistant",
       "age": 19,
       "availability": "Not available",
       "credits": {
@@ -1083,6 +1134,7 @@
       "id": 88,
       "firstName": "Beck",
       "lastName": "Bernaldo",
+      "jobTitle": "Team assistant",
       "age": 70,
       "availability": "Available",
       "credits": {
@@ -1095,6 +1147,7 @@
       "id": 89,
       "firstName": "Andrea",
       "lastName": "Soigoux",
+      "jobTitle": "Team assistant",
       "age": 59,
       "availability": "Not available",
       "credits": {
@@ -1107,6 +1160,7 @@
       "id": 90,
       "firstName": "Karie",
       "lastName": "Harcarse",
+      "jobTitle": "Team assistant",
       "age": 95,
       "availability": "Not available",
       "credits": {
@@ -1119,6 +1173,7 @@
       "id": 91,
       "firstName": "Vilma",
       "lastName": "Benoy",
+      "jobTitle": "Team assistant",
       "age": 83,
       "availability": "Not available",
       "credits": {
@@ -1131,6 +1186,7 @@
       "id": 92,
       "firstName": "Sascha",
       "lastName": "Beaver",
+      "jobTitle": "Team assistant",
       "age": 24,
       "availability": "Available",
       "credits": {
@@ -1143,6 +1199,7 @@
       "id": 93,
       "firstName": "Lyndsay",
       "lastName": "De Goey",
+      "jobTitle": "Team assistant",
       "age": 87,
       "availability": "Not available",
       "credits": {
@@ -1155,6 +1212,7 @@
       "id": 94,
       "firstName": "Sarge",
       "lastName": "Moseby",
+      "jobTitle": "Team assistant",
       "age": 50,
       "availability": "Available",
       "credits": {
@@ -1167,6 +1225,7 @@
       "id": 95,
       "firstName": "Amabel",
       "lastName": "Devo",
+      "jobTitle": "Team assistant",
       "age": 84,
       "availability": "Not available",
       "credits": {
@@ -1179,6 +1238,7 @@
       "id": 96,
       "firstName": "Todd",
       "lastName": "Louden",
+      "jobTitle": "Team assistant",
       "age": 89,
       "availability": "Available",
       "credits": {
@@ -1191,6 +1251,7 @@
       "id": 97,
       "firstName": "Bo",
       "lastName": "Fenning",
+      "jobTitle": "Team assistant",
       "age": 23,
       "availability": "Available",
       "credits": {
@@ -1203,6 +1264,7 @@
       "id": 98,
       "firstName": "Osbert",
       "lastName": "Witch",
+      "jobTitle": "Team assistant",
       "age": 19,
       "availability": "Available",
       "credits": {
@@ -1215,6 +1277,7 @@
       "id": 99,
       "firstName": "Nerte",
       "lastName": "Dripp",
+      "jobTitle": "Team lead",
       "age": 85,
       "availability": "Not available",
       "credits": {
@@ -1227,6 +1290,7 @@
       "id": 100,
       "firstName": "Mathe",
       "lastName": "Stonner",
+      "jobTitle": "Team lead",
       "age": 94,
       "availability": "Available",
       "credits": {
