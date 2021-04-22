@@ -62,15 +62,17 @@ const customToolbarSelectActions = ({
   </React.Fragment>
 );
 
+const rows = [
+  {firstname: '', lastName: '', jobTitle: '', age:'', availability: ''}
+]
+
 const Demo = () => (
   <div className={"App"}>
-    <AddUserRow 
-      data={users}       
-      columns={columns}
-    />   
+    <AddUserRow />   
     
     <ReactMUIDatatable
-      title={"List"}      
+      title={"List"}
+      rows={rows}      
       data={users}
       columns={columns}
       customCell={customCell}

@@ -38,14 +38,15 @@ export default function MultilineTextFields() {
   };
 
   return (
-    <form className={classes.root} noValidate autoComplete="off">
-      <TextField required id="outlined-required" label="Required" inputProps={{ 'firstName': 'First name' }} 
+    <form className={classes.root} >
+      <TextField required id="firstName" label="Required" inputProps={{ 'firstName': 'First name' }} 
         defaultValue="First name" variant="outlined" />
       
-      <TextField required id="outlined-required" label="Required" inputProps={{ 'lastName': 'Last name' }} 
+      <TextField required id="lastName" label="Required" inputProps={{ 'lastName': 'Last name' }} 
         defaultValue="Last name" variant="outlined" />
       
-      <TextField required id="outlined-required" label="Job title" inputLabelProps={{ shrink: true, 'jobTitle': 'Job title' }} variant="outlined" />
+      <TextField required id="jobTitle" label="Job title" inputLabelProps={{ shrink: true, 'jobTitle': 'Job title' }} 
+        variant="outlined" />
       
       <TextField id="age" label="Age" type="number" InputLabelProps={{ shrink: true, 'age': 'Age' }} 
         variant="outlined" />
@@ -59,7 +60,7 @@ export default function MultilineTextFields() {
             </MenuItem>
           ))}
         </TextField>
-        
+
       <AddButton />      
     </form>
   );
