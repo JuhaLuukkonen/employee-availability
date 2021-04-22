@@ -3,6 +3,7 @@
       "id": 1,
       "firstName": "Kippy",
       "lastName": "Assaf",
+      "jobTitle": "Software Developer",
       "age": 26,
       "availability": "Unknown",
       "credits": {
@@ -15,6 +16,7 @@
       "id": 2,
       "firstName": "Kelbee",
       "lastName": "Briscam",
+      "jobTitle": "Manager",
       "age": 67,
       "availability": "Available",
       "credits": {
@@ -27,6 +29,7 @@
       "id": 3,
       "firstName": "Davidson",
       "lastName": "McKenney",
+      "jobTitle": "HR assistant",
       "age": 33,
       "availability": "Available",
       "credits": {
@@ -39,6 +42,7 @@
       "id": 4,
       "firstName": "Bobbie",
       "lastName": "Waleran",
+      "jobTitle": "Software Developer",
       "age": 23,
       "availability": "Not available",
       "credits": {
@@ -51,6 +55,7 @@
       "id": 5,
       "firstName": "Eda",
       "lastName": "Real",
+      "jobTitle": "Software Developer",
       "age": 50,
       "availability": "Not available",
       "credits": {
@@ -63,6 +68,7 @@
       "id": 6,
       "firstName": "Kissee",
       "lastName": "Rogans",
+      "jobTitle": "Software Developer",
       "age": 60,
       "availability": "Not available",
       "credits": {
@@ -75,6 +81,7 @@
       "id": 7,
       "firstName": "Carce",
       "lastName": "Gronow",
+      "jobTitle": "Software Developer",
       "age": 62,
       "availability": "Available",
       "credits": {
@@ -87,6 +94,7 @@
       "id": 8,
       "firstName": "Aksel",
       "lastName": "Deacon",
+      "jobTitle": "Sales manager",
       "age": 43,
       "availability": "Available",
       "credits": {
@@ -99,6 +107,7 @@
       "id": 9,
       "firstName": "Parsifal",
       "lastName": "Dwelling",
+      "jobTitle": "Cleaner",
       "age": 83,
       "availability": "Available",
       "credits": {
@@ -111,6 +120,7 @@
       "id": 10,
       "firstName": "Wynn",
       "lastName": "Silverson",
+      "jobTitle": "Software Developer",
       "age": 57,
       "availability": "Not available",
       "credits": {
@@ -123,6 +133,7 @@
       "id": 11,
       "firstName": "Francis",
       "lastName": "Goody",
+      "jobTitle": "Software Developer",
       "age": 67,
       "availability": "Available",
       "credits": {
@@ -135,6 +146,7 @@
       "id": 12,
       "firstName": "Phedra",
       "lastName": "Mariet",
+      "jobTitle": "Software Developer",
       "age": 44,
       "availability": "Not available",
       "credits": {
@@ -147,6 +159,7 @@
       "id": 13,
       "firstName": "Vale",
       "lastName": "MacDavitt",
+      "jobTitle": "Software Developer",
       "age": 60,
       "availability": "Not available",
       "credits": {
@@ -159,6 +172,7 @@
       "id": 14,
       "firstName": "Jolynn",
       "lastName": "Batterson",
+      "jobTitle": "Software Developer",
       "age": 84,
       "availability": "Not available",
       "credits": {
@@ -171,6 +185,7 @@
       "id": 15,
       "firstName": "Doug",
       "lastName": "Collman",
+      "jobTitle": "Trainee",
       "age": 18,
       "availability": "Available",
       "credits": {
@@ -183,6 +198,7 @@
       "id": 16,
       "firstName": "Derek",
       "lastName": "Izkoveski",
+      "jobTitle": "Junior Software Developer",
       "age": 66,
       "availability": "Available",
       "credits": {
@@ -195,6 +211,7 @@
       "id": 17,
       "firstName": "Tad",
       "lastName": "Fawthrop",
+      "jobTitle": "Trainee",
       "age": 31,
       "availability": "Available",
       "credits": {
@@ -207,6 +224,7 @@
       "id": 18,
       "firstName": "Maximilianus",
       "lastName": "Salvage",
+      "jobTitle": "Trainee",
       "age": 32,
       "availability": "Available",
       "credits": {
@@ -219,6 +237,7 @@
       "id": 19,
       "firstName": "Kane",
       "lastName": "Pembery",
+      "jobTitle": "Trainee",
       "age": 31,
       "availability": "Available",
       "credits": {
@@ -231,6 +250,7 @@
       "id": 20,
       "firstName": "Ade",
       "lastName": "Phillipson",
+      "jobTitle": "Trainee",
       "age": 36,
       "availability": "Available",
       "credits": {
@@ -243,6 +263,7 @@
       "id": 21,
       "firstName": "Amber",
       "lastName": "Tibalt",
+      "jobTitle": "Trainee",
       "age": 82,
       "availability": "Not available",
       "credits": {
@@ -255,6 +276,7 @@
       "id": 22,
       "firstName": "Cyndi",
       "lastName": "Elington",
+      "jobTitle": "Trainee",
       "age": 28,
       "availability": "Not available",
       "credits": {
@@ -267,6 +289,7 @@
       "id": 23,
       "firstName": "Gennifer",
       "lastName": "Crutcher",
+      "jobTitle": "Trainee",
       "age": 72,
       "availability": "Not available",
       "credits": {
@@ -279,6 +302,7 @@
       "id": 24,
       "firstName": "Sibylle",
       "lastName": "Kelso",
+      "jobTitle": "Trainee",
       "age": 87,
       "availability": "Not available",
       "credits": {
@@ -291,6 +315,7 @@
       "id": 25,
       "firstName": "Maurine",
       "lastName": "Shevels",
+      "jobTitle": "Trainee",
       "age": 54,
       "availability": "Not available",
       "credits": {
@@ -303,6 +328,7 @@
       "id": 26,
       "firstName": "Barnard",
       "lastName": "Schulze",
+      "jobTitle": "Trainee",
       "age": 88,
       "availability": "Available",
       "credits": {
@@ -315,6 +341,7 @@
       "id": 27,
       "firstName": "Tabitha",
       "lastName": "Bohlje",
+      "jobTitle": "Manager",
       "age": 53,
       "availability": "Not available",
       "credits": {
@@ -327,6 +354,7 @@
       "id": 28,
       "firstName": "Clemmie",
       "lastName": "Bartolic",
+      "jobTitle": "Manager",
       "age": 77,
       "availability": "Not available",
       "credits": {
@@ -339,6 +367,7 @@
       "id": 29,
       "firstName": "Meghan",
       "lastName": "Jerratsch",
+      "jobTitle": "Manager",
       "age": 36,
       "availability": "Not available",
       "credits": {
@@ -351,6 +380,7 @@
       "id": 30,
       "firstName": "Nata",
       "lastName": "Dandison",
+      "jobTitle": "Manager",
       "age": 90,
       "availability": "Not available",
       "credits": {
@@ -363,6 +393,7 @@
       "id": 31,
       "firstName": "Kala",
       "lastName": "Iggalden",
+      "jobTitle": "Manager",
       "age": 21,
       "availability": "Not available",
       "credits": {
@@ -375,6 +406,7 @@
       "id": 32,
       "firstName": "Katine",
       "lastName": "Di Roberto",
+      "jobTitle": "Manager",
       "age": 36,
       "availability": "Not available",
       "credits": {
@@ -387,6 +419,7 @@
       "id": 33,
       "firstName": "Nikolos",
       "lastName": "Harbison",
+      "jobTitle": "Manager",
       "age": 33,
       "availability": "Available",
       "credits": {
@@ -399,6 +432,7 @@
       "id": 34,
       "firstName": "Fidel",
       "lastName": "Atthow",
+      "jobTitle": "Manager",
       "age": 68,
       "availability": "Available",
       "credits": {
@@ -411,6 +445,7 @@
       "id": 35,
       "firstName": "Collen",
       "lastName": "Mignot",
+      "jobTitle": "Dog",
       "age": 84,
       "availability": "Not available",
       "credits": {
@@ -423,6 +458,7 @@
       "id": 36,
       "firstName": "Xylia",
       "lastName": "Cheetam",
+      "jobTitle": "Doctor",
       "age": 23,
       "availability": "Not available",
       "credits": {
