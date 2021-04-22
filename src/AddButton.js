@@ -10,14 +10,18 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+// adding new row do not work
+
+const addRows = [
+  {firstname: '', lastName: '', jobTitle: '', age:'', availability: ''}
+]
+
 export default function ContainedButtons() {
   const classes = useStyles();
 
   return (
     <div className={classes.root}>
-      <Button variant="contained" color="secondary" >
-        Add
-      </Button>      
+      <Button onClick={() => { addRows()}} variant="contained" color="secondary" >Add</Button>      
     </div>
   );
 }
