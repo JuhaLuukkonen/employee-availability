@@ -1,5 +1,7 @@
 # Employee availability - Juha Luukkonen
 
+React form for adding employee availability by using dialog: https://material-ui.com/components/dialogs/ 
+
 TODO: 
 
 1.) transfer data from addUserRow to display list
@@ -28,7 +30,6 @@ employee-availability-main
   public/
     index.html
   src/
-    AddButton.js
     AddUserRow.js
     App.css
     App.js
@@ -37,6 +38,7 @@ employee-availability-main
     Index.js
     logo.svg
     reportWebVitals.js
+    RowsDialog.js
     setupTests.js
     stub.json
     styles.css
