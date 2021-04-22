@@ -64,8 +64,11 @@ const customToolbarSelectActions = ({
 
 const Demo = () => (
   <div className={"App"}>
-    <AddUserRow />    
-
+    <AddUserRow 
+      data={users}       
+      columns={columns}
+    />   
+    
     <ReactMUIDatatable
       title={"List"}      
       data={users}
