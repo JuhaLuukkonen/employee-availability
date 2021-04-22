@@ -68,6 +68,11 @@ const rows = [
   {firstname: '', lastName: '', jobTitle: '', age:'', availability: ''}
 ]
 
+const btnStyle = {
+  display: "flex",
+  verticalAlign: "center"        
+}
+
 const Demo = () => (
   <div className={"App"}> 
     
@@ -78,11 +83,12 @@ const Demo = () => (
       columns={columns}
       customCell={customCell}
       toolbarSelectActions={customToolbarSelectActions}
-    />
-    Add___
+    />    
+    ______
     
     <AddUserRow
     addedRows={addedRows}
+    style={btnStyle}
     />         
   </div>
 );

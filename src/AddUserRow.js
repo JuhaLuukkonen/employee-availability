@@ -21,7 +21,7 @@ export default function FormDialog() {
   return (
     <div>
       <Button variant="outlined" color="secondary" onClick={handleClickOpen}>
-        Employee availability
+        Add employee availability
       </Button>
       <Dialog open={open} onClose={handleClose} aria-labelledby="form-dialog-title">
         <DialogTitle id="form-dialog-title">Add employee availability</DialogTitle>
