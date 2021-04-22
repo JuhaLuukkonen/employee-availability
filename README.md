@@ -6,11 +6,11 @@ TODO:
 
 2.) UI style
 
-# Used Material-UI libraries
+## Used Material-UI libraries
 ```
 https://material-ui.com/
 ```
-# Download repository and install
+## Download repository and install
 ```
 - npm install
 
@@ -22,7 +22,7 @@ or(not tested)
 
 - yarn start
 ```
-# Folder structure
+## Folder structure
 ```
 employee-availability-main
   public/
