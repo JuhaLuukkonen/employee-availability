@@ -17,11 +17,11 @@ export default function FormDialog() {
   const handleClose = () => {
     setOpen(false);
   };
-
+// secondary set red button - does blue one is ment for main function for thi property?
   return (
     <div>
-      <Button variant="outlined" color="primary" onClick={handleClickOpen}>
-        Add employee availability
+      <Button variant="outlined" color="secondary" onClick={handleClickOpen}>
+        Employee availability
       </Button>
       <Dialog open={open} onClose={handleClose} aria-labelledby="form-dialog-title">
         <DialogTitle id="form-dialog-title">Add employee availability</DialogTitle>
@@ -38,7 +38,7 @@ export default function FormDialog() {
             Cancel
           </Button>
           <Button onClick={handleClose} color="primary">
-            Add employee availability
+            Add availability
           </Button>
         </DialogActions>
       </Dialog>
