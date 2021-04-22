@@ -8,7 +8,7 @@ import SwapHorizIcon from "@material-ui/icons/SwapHoriz";
 import DeleteIcon from "@material-ui/icons/Delete";
 import users from "./stub.json";
 import AddUserRow from "./AddUserRow";
-import AddButton from "./AddButton";
+// Demo.js file should be named EmployeeList 
 
 
 const columns = [
@@ -16,10 +16,7 @@ const columns = [
   { name: "lastName", label: "Last name" },
   { name: "jobTitle", label: "Job title" },
   { name: "age", label: "Age" },
-  {
-    name: "availability",
-    label: "Availability"
-  },
+  { name: "availability", label: "Availability" },
 ];
 
 
@@ -67,8 +64,8 @@ const customToolbarSelectActions = ({
 
 const Demo = () => (
   <div className={"App"}>
-    <AddUserRow />
-    <AddButton />  
+    <AddUserRow />    
+
     <ReactMUIDatatable
       title={"List"}      
       data={users}
