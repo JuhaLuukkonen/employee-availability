@@ -22,7 +22,7 @@ const availability = [
 const useStyles = makeStyles((theme) => ({
   root: {
     '& .MuiTextField-root': {
-      margin: theme.spacing(1),
+      margin: theme.spacing(5),
       width: '25ch',
     },
   },
