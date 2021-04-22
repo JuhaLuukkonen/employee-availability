@@ -10,15 +10,13 @@ import users from "./stub.json";
 import AddUserRow from "./AddUserRow";
 // Demo.js file should be named EmployeeList 
 
-
 const columns = [
-  { name: "firstName", label: "First name" },
-  { name: "lastName", label: "Last name" },
-  { name: "jobTitle", label: "Job title" },
-  { name: "age", label: "Age" },
-  { name: "availability", label: "Availability" },
+  { name: "firstName", label: "First name", id: "firstName" },
+  { name: "lastName", label: "Last name", id: "lastName" },
+  { name: "jobTitle", label: "Job title", id: "jobTitle" },
+  { name: "age", label: "Age", id:"age" },
+  { name: "availability", label: "Availability", id:"availability" },
 ];
-
 
 const customCell = ({ value, column, row }) => {
   if (column.name === "availability") {
@@ -67,9 +65,7 @@ const rows = [
 ]
 
 const Demo = () => (
-  <div className={"App"}>
-    <AddUserRow />   
-    
+  <div className={"App"}>    
     <ReactMUIDatatable
       title={"List"}
       rows={rows}      
@@ -78,6 +74,7 @@ const Demo = () => (
       customCell={customCell}
       toolbarSelectActions={customToolbarSelectActions}
     />
+    <AddUserRow /> 
   </div>
 );
 

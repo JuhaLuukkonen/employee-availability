@@ -1,67 +1,47 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import AddButton from './AddButton';
-import TextField from '@material-ui/core/TextField';
-import MenuItem from '@material-ui/core/MenuItem';
+import Button from '@material-ui/core/Button';
+import Dialog from '@material-ui/core/Dialog';
+import DialogActions from '@material-ui/core/DialogActions';
+import DialogContent from '@material-ui/core/DialogContent';
+import DialogContentText from '@material-ui/core/DialogContentText';
+import DialogTitle from '@material-ui/core/DialogTitle';
+import RowsDialog from "./RowsDialog";
 
+export default function FormDialog() {
+  const [open, setOpen] = React.useState(false);
 
-const availability = [
-  {
-    value: 'Available',
-    label: 'available',
-  },
-  {
-    value: 'Not available',
-    label: 'not available',
-  },
-  {
-    value: 'Unknown',
-    label: 'unknown',
-  },
-];
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    '& .MuiTextField-root': {
-      margin: theme.spacing(1),
-      width: '25ch',
-    },
-  },
-}));
-
-export default function MultilineTextFields() {
-  const classes = useStyles();
-  const [available, setAvailable] = React.useState('Available');
-
-  const handleChange = (event) => {
-    setAvailable(event.target.value);
+  const handleClose = () => {
+    setOpen(false);
   };
 
   return (
-    <form className={classes.root} >
-      <TextField required id="firstName" label="Required" inputprops={{ 'firstName': 'First name' }} 
-        defaultValue="First name" variant="outlined" />
-      
-      <TextField required id="lastName" label="Required" inputprops={{ 'lastName': 'Last name' }} 
-        defaultValue="Last name" variant="outlined" />
-      
-      <TextField required id="jobTitle" label="Job title" inputlabelprops={{ shrink: true, 'jobTitle': 'Job title' }} 
-        variant="outlined" />
-      
-      <TextField id="age" label="Age" type="number" inputlbelprops={{ shrink: true, 'age': 'Age' }} 
-        variant="outlined" />
-      
-      <TextField id="availability" select label="Availability" value={available} inputprops={{ 'availability': 'Availability' }} onChange={handleChange} 
-        helperText="Please select your availability" variant="outlined" >
-          {availability.map((option) => (
-            
-            <MenuItem key={option.value} value={option.value}>
-              {option.label}
-            </MenuItem>
-          ))}
-        </TextField>
-
-      <AddButton />      
-    </form>
+    <div>
+      <Button variant="outlined" color="primary" onClick={handleClickOpen}>
+        Add employee availability
+      </Button>
+      <Dialog open={open} onClose={handleClose} aria-labelledby="form-dialog-title">
+        <DialogTitle id="form-dialog-title">Add employee availability</DialogTitle>
+        <DialogContent>
+          <DialogContentText>
+            Please let us know are available or not? It's also OK to don't know if you are or not.
+          </DialogContentText>
+                     
+          <RowsDialog />
+          
+        </DialogContent>
+        <DialogActions>        
+          <Button onClick={handleClose} color="primary">
+            Cancel
+          </Button>
+          <Button onClick={handleClose} color="primary">
+            Add employee availability
+          </Button>
+        </DialogActions>
+      </Dialog>
+    </div>
   );
 }
