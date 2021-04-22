@@ -27,7 +27,7 @@ export default function FormDialog() {
         <DialogTitle id="form-dialog-title">Add employee availability</DialogTitle>
         <DialogContent>
           <DialogContentText>
-            Please let us know are available or not? It's also OK to don't know if you are or not.
+            Please let us know are you available or not? It's also OK if you don't know.
           </DialogContentText>
                      
           <RowsDialog />
