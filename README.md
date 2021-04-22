@@ -6,6 +6,10 @@ TODO:
 
 2.) UI style
 
+# Used Material-UI libraries
+```
+https://material-ui.com/
+```
 # Download repository and install
 ```
 - npm install
