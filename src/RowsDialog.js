@@ -47,7 +47,7 @@ export default function MultilineTextFields() {
       <TextField required id="jobTitle" label="Job title" inputlabelprops={{ shrink: true, 'jobTitle': 'Job title' }} 
         variant="outlined"/>
       
-      <TextField id="age" label="Age" type="number" inputlbelprops={{ shrink: true, 'age': 'Age' }} 
+      <TextField id="age" label="Age" type="number" inputlabelprops={{ shrink: true, 'age': 'Age' }} 
         variant="outlined"/>
       
       <TextField id="availability" select label="Availability" value={available} inputprops={{ 'availability': 'Availability' }} onChange={handleChange} 
