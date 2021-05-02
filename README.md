@@ -19,20 +19,29 @@ or(not tested)
 employee-availability-main
   public/
     index.html
-  src/
-    AddUserRow.js
-    App.css
-    App.js
-    Demo.js
-    Index.css
-    Index.js
-    logo.svg
-    reportWebVitals.js
-    RowsDialog.js
-    setupTests.js
-    stub.json
-    styles.css
+    src/_componets/
+      Alert.jsx
+      index.js
+      Nav.jsx
+    src/_helpers
+      fake-backend.js
+      index.js
+      role.js
+    src/_services
+      alert.service.js
+      index.js
+      user.service.js
+    src/app
+      index.jsx
+    src/home
+      index.jsx
+    src/users
+      AddEdit.jsx
+      Index.jsx
+      List.jsx
+    index.js
+    styles.less
   package-lock.json
   package.json
-  README.md
+  
 ```
