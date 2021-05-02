@@ -1,6 +1,7 @@
 # Employee availability - Juha Luukkonen
 
 - React - CRUD Example with React Hook Form
+- Works fine locally but not in vercel app - there was deploy log errors with dependecies
 
 ## Download repository and install
 ```
