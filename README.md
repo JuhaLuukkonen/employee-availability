@@ -1,16 +1,6 @@
 # Employee availability - Juha Luukkonen
 
-React form for adding employee availability by using dialog: https://material-ui.com/components/dialogs/ 
-
-TODO: 
-
-1.) transfer data from addUserRow to display list
-
-2.) UI style
-
-## Used Material-UI libraries
-
-https://material-ui.com/
+- React - CRUD Example with React Hook Form
 
 ## Download repository and install
 ```
