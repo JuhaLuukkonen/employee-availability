@@ -1,8 +1,18 @@
-import "./styles.css";
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import { render } from 'react-dom';
 
-import React from "react";
-import ReactDOM from "react-dom";
-import Demo from "./Demo";
+import { App } from './app/Index';
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(<Demo />, rootElement);
+import './styles.less';
+
+// setup fake backend
+import { configureFakeBackend } from './_helpers';
+configureFakeBackend();
+
+render(
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>,
+    document.getElementById('app')
+);
