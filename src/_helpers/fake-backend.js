@@ -160,10 +160,6 @@ export function configureFakeBackend() {
                 resolve({ ok: true, text: () => Promise.resolve(JSON.stringify(body)) });
             }
 
-            function error(message) {
-                resolve({ status: 400, text: () => Promise.resolve(JSON.stringify({ message })) });
-            }
-
             function idFromUrl() {
                 const urlParts = url.split('/');
                 return parseInt(urlParts[urlParts.length - 1]);
