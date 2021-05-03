@@ -1,4 +1,4 @@
-import { Availability } from './role'
+import { Availability } from './'
 
 export function configureFakeBackend() {
     // array in local storage for user records
