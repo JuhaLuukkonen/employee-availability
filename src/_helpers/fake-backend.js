@@ -1,4 +1,4 @@
-import { Availability } from './'
+import { Availability } from './role'
 
 export function configureFakeBackend() {
     // array in local storage for user records
@@ -158,6 +158,10 @@ export function configureFakeBackend() {
 
             function ok(body) {
                 resolve({ ok: true, text: () => Promise.resolve(JSON.stringify(body)) });
+            }
+
+            function error(message) {
+                resolve({ status: 400, text: () => Promise.resolve(JSON.stringify({ message })) });
             }
 
             function idFromUrl() {
