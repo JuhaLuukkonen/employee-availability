@@ -169,14 +169,9 @@ export function configureFakeBackend() {
                 return opts.body && JSON.parse(opts.body);    
             }
 
-            function newUserId() {
-                if (newUserId !== undefined) {
-                    // Handling null values.
-                   return null;
-                } else { 
+            function newUserId() {                
                 return users.length ? Math.max(...users.map(x => x.id)) + 1 : 1;
-                }
-            }
+            }            
         });
     }
 }
