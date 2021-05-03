@@ -172,8 +172,10 @@ export function configureFakeBackend() {
             function newUserId() {
                 if (newUserId !== undefined) {
                     // Handling null values.
-                  }    
+                   return null;
+                } else { 
                 return users.length ? Math.max(...users.map(x => x.id)) + 1 : 1;
+                }
             }
         });
     }
