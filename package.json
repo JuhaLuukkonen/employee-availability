@@ -5,6 +5,7 @@
   "dependencies": {
     "@babel/eslint-parser": "^7.13.14",
     "@hookform/resolvers": "^1.0.0",
+    "npm-install-peers": "^1.2.2",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
