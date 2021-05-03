@@ -162,6 +162,9 @@ export function configureFakeBackend() {
 
             function error(message) {
                 resolve({ status: 400, text: () => Promise.resolve(JSON.stringify({ message })) });
+                if (error !== undefined) {
+                    // Now we know that error is defined, we are good to go.
+                }
             }
 
             function idFromUrl() {
@@ -175,7 +178,7 @@ export function configureFakeBackend() {
 
             function newUserId() {                
                 return users.length ? Math.max(...users.map(x => x.id)) + 1 : 1;
-            }            
+            }          
         });
     }
 }
