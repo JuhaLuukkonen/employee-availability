@@ -82,17 +82,17 @@ function AddEdit({ history, match }) {
                 </div>
             </div>
             <div className="form-row">
-                <div className="form-group col-5">
+                <div className="form-group col-4">
                     <label>Job title</label>
                     <input name="jobTitle" type="text" ref={register} className={`form-control ${errors.jobTitle ? 'is-invalid' : ''}`} />
                     <div className="invalid-feedback">{errors.jobTitle?.message}</div>
                 </div>
-                <div className="form-group col-5">
+                <div className="form-group col-4">
                     <label>Age</label>
                     <input name="age" type="number" ref={register} className={`form-control ${errors.age ? 'is-invalid' : ''}`} />
                     <div className="invalid-feedback">{errors.age?.message}</div>
                 </div>
-                <div className="form-group col">
+                <div className="form-group col-2">
                     <label>Availability</label>
                     <select name="availability" ref={register} className={`form-control ${errors.availability ? 'is-invalid' : ''}`}>
                         <option value=""></option>

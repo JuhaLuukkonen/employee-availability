@@ -31,7 +31,7 @@ function List({ match }) {
                         <th style={{ width: '20%' }}>First name</th>
                         <th style={{ width: '20%' }}>Last name</th>
                         <th style={{ width: '15%' }}>Job title</th>
-                        <th style={{ width: '10%' }}>Age</th>
+                        <th style={{ width: '15%' }}>Age</th>
                         <th style={{ width: '15%' }}>Availability</th>
                         <th style={{ width: '15%' }}></th>
                     </tr>
